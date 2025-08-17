@@ -7,6 +7,78 @@ soong_namespace {
 	],
 }
 
+android_app_import {
+	name: "ImsService",
+	owner: "motorola",
+	apk: "proprietary/system_ext/priv-app/ImsService/ImsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "mediatek-carrier-config-manager",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/mediatek-carrier-config-manager.jar"],
+}
+
+dex_import {
+	name: "mediatek-common",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/mediatek-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-framework",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/mediatek-framework.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-base",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/mediatek-ims-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-common",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/mediatek-ims-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-extension-plugin",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/mediatek-ims-extension-plugin.jar"],
+}
+
+dex_import {
+	name: "mediatek-services",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/mediatek-services.jar"],
+}
+
+dex_import {
+	name: "mediatek-telecom-common",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/mediatek-telecom-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-base",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/mediatek-telephony-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-common",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/mediatek-telephony-common.jar"],
+}
+
 prebuilt_etc_xml {
 	name: "android.hardware.biometrics.fingerprint@2.1-service.xml",
 	owner: "motorola",
