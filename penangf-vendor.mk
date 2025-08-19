@@ -1501,7 +1501,7 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
-    android.hardware.biometrics.fingerprint@2.1-service.xml \
+    android.hardware.biometrics.fingerprint@2.1-service-mtk.xml \
     android.hardware.cas@1.2-service-lazy.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml \
     gnss-mtk-default.xml \
