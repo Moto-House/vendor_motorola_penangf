@@ -1472,7 +1472,6 @@ PRODUCT_PACKAGES += \
     gnss-mtk@2.1-service.xml \
     lbs_hidl_service@1.0.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
-    manifest_hwcomposer.xml \
     manifest_media_c2_V1_2_default.xml \
     memtrack-mediatek.xml \
     vendor.dolby.hardware.dms.xml \
