@@ -1498,7 +1498,6 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_media_c2_V1_2_default.xml \
     memtrack-mediatek.xml \
-    power-mtk-default.xml \
     vendor.dolby.hardware.dms.xml \
     vendor.dolby.media.c2@1.0-service.xml
 
