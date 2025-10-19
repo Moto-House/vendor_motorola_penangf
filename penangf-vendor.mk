@@ -622,6 +622,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/penangf/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/motorola/penangf/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/motorola/penangf/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
+    vendor/motorola/penangf/proprietary/vendor/lib64/nfc_nci_nxp_snxxx-moto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp_snxxx-moto.so \
     vendor/motorola/penangf/proprietary/vendor/etc/portraitrepair_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/portraitrepair_config.json \
     vendor/motorola/penangf/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     vendor/motorola/penangf/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
