@@ -622,7 +622,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/penangf/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/motorola/penangf/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/motorola/penangf/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
-    vendor/motorola/penangf/proprietary/vendor/lib64/nfc_nci_nxp_snxxx-moto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp_snxxx-moto.so \
     vendor/motorola/penangf/proprietary/vendor/etc/portraitrepair_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/portraitrepair_config.json \
     vendor/motorola/penangf/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     vendor/motorola/penangf/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
@@ -1391,6 +1390,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/penangf/proprietary/vendor/lib64/mt6768/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libnir_neon_driver.so \
     vendor/motorola/penangf/proprietary/vendor/lib64/mt6768/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libpq_prot.so \
     vendor/motorola/penangf/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
+    vendor/motorola/penangf/proprietary/vendor/lib64/nfc_nci_nxp_snxxx-moto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp_snxxx-moto.so \
     vendor/motorola/penangf/proprietary/vendor/lib64/offline_processor:$(TARGET_COPY_OUT_VENDOR)/lib64/offline_processor \
     vendor/motorola/penangf/proprietary/vendor/lib64/ov02b10_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov02b10_mipi_raw_IdxMgr.so \
     vendor/motorola/penangf/proprietary/vendor/lib64/ov02b10_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov02b10_mipi_raw_india_IdxMgr.so \
