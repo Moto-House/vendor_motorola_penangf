@@ -20,6 +20,12 @@ android_app_import {
 }
 
 dex_import {
+	name: "com.nxp.nfc",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/com.nxp.nfc.jar"],
+}
+
+dex_import {
 	name: "mediatek-carrier-config-manager",
 	owner: "motorola",
 	jars: ["proprietary/system/framework/mediatek-carrier-config-manager.jar"],

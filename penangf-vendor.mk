@@ -1490,6 +1490,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     ImsService \
+    com.nxp.nfc \
     mediatek-carrier-config-manager \
     mediatek-common \
     mediatek-framework \
